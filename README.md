@@ -101,6 +101,10 @@ A theme with neon green and dark tones, ideal for a hacker's environment.
 
 ![hacker_underground](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/hacker_underground.png)
 
+-Hacker Underground editing code:
+
+![hacker_underground](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/hacker_underground_editing.png)
+
 -Infernal Cyberpunk Theme:
 A fiery theme with cyberpunk-inspired visuals.
 
