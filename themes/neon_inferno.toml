@@ -1,0 +1,58 @@
+# Neon Inferno
+
+# Fuente
+font.normal.family = "Fira Code"
+font.normal.style = "Regular"
+font.bold.family = "Fira Code"
+font.bold.style = "Bold"
+font.italic.family = "Fira Code"
+font.italic.style = "Italic"
+font.size = 13.0
+font.offset.x = -1
+font.offset.y = -1
+
+# Colores del tema
+[colors]
+  draw_bold_text_with_bright_colors = true
+  [colors.primary]
+  background = "0x0A002E"  # Púrpura oscuro profundo
+  foreground = "0xFF3131"  # Rojo neón ardiente
+
+  [colors.normal]
+  black = "0x1A001A"    # Negro con tinte púrpura
+  red = "0xFF0000"      # Rojo puro, sangre viva
+  green = "0x00FF00"    # Verde radioactivo
+  yellow = "0xFFD700"   # Oro demoníaco
+  blue = "0x007BFF"     # Azul eléctrico violento
+  magenta = "0xFF00FF"   # Magenta neón infernal
+  cyan = "0x00FFFF"     # Cian tóxico
+  white = "0xFFFFFF"    # Blanco nuclear
+
+  [colors.bright]
+  black = "0x555555"    # Gris medio
+  red = "0xFF4F4F"      # Rojo brillante
+  green = "0x4CAF50"    # Verde brillante
+  yellow = "0xFFEB3B"   # Amarillo brillante
+  blue = "0x1E88E5"     # Azul cálido
+  magenta = "0x8A2BE2"   # Morado oscuro
+  cyan = "0x00BCD4"     # Cian brillante
+  white = "0xD0D0D0"    # Gris metálico
+
+# Configuración del cursor
+[cursor]
+  style = { shape = "Beam", blinking = "Always" }
+  vi_mode_style = "None"
+  blink_interval = 500
+  unfocused_hollow = true
+  thickness = 0.15
+
+[bell]
+  animation = "EaseOutExpo"
+  duration = 300
+  color = "#8A2BE2"
+  command = "None"
+
+# Opciones de Mouse
+[mouse]
+  hide_when_typing = false
+

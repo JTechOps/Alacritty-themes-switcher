@@ -1,0 +1,58 @@
+# Hellfire Terminal
+
+# Fuente
+font.normal.family = "IBM 3270"
+font.normal.style = "Regular"
+font.bold.family = "IBM 3270"
+font.bold.style = "Bold"
+font.italic.family = "IBM 3270"
+font.italic.style = "Italic"
+font.size = 14.0
+font.offset.x = -1
+font.offset.y = -1
+
+# Configuración del cursor
+[cursor]
+  style = { shape = "Block", blinking = "Always" }
+  vi_mode_style = "None"
+  blink_interval = 400
+  unfocused_hollow = false
+  thickness = 0.30
+
+[bell]
+  animation = "EaseOutExpo"
+  duration = 400
+  color = "#FF5500"
+  command = "None"
+
+# Opciones de Mouse
+[mouse]
+  hide_when_typing = false
+
+# Colores del tema
+[colors]
+  draw_bold_text_with_bright_colors = true
+  [colors.primary]
+  background = "0x100000"  # Negro infernal profundo
+  foreground = "0xFF2200"  # Rojo lava incandescente
+
+  [colors.normal]
+  black = "0x220000"    # Negro con rojo
+  red = "0xFF4400"      # Naranja incandescente
+  green = "0x116600"    # Verde demoníaco
+  yellow = "0xFFAA00"   # Azufre ardiente
+  blue = "0x5533FF"     # Azul volcánico brillante 🔥
+  magenta = "0x770033"  # Violeta infernal
+  cyan = "0x006666"     # Cian fantasmagórico
+  white = "0xBBBBBB"    # Cenizas ardientes
+
+  [colors.bright]
+  black = "0x550000"    # Rojo carbón
+  red = "0xFFD700"      # Fuego vivo
+  green = "0x55AA55"    # Verde tóxico
+  yellow = "0xFFDD00"   # Oro fundido
+  blue = "0x7755FF"     # Azul eléctrico 🔥
+  magenta = "0x990044"  # Magenta carmesí
+  cyan = "0x33FFFF"     # Cian radiactivo
+  white = "0xFFFFFF"    # Blanco infernal
+

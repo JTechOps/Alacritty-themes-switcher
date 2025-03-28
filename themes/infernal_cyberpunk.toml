@@ -1,0 +1,57 @@
+# Infernal Cyberpunk
+
+# Fuente
+font.normal.family = "Terminus"
+font.normal.style = "Regular"
+font.bold.family = "Terminus"
+font.bold.style = "Bold"
+font.italic.family = "Terminus"
+font.italic.style = "Italic"
+font.size = 14.0
+font.offset.x = -1
+font.offset.y = -1
+
+# Colores del tema
+[colors]
+  draw_bold_text_with_bright_colors = true
+  [colors.primary]
+  background = "0x0A002E"  # Fondo oscuro, tono púrpura infernal
+  foreground = "0xFF007F"  # Texto en rosa neón intenso
+
+  [colors.normal]
+  black = "0x1A001A"    # Negro con un toque púrpura profundo
+  red = "0xFF3131"      # Rojo sangre brillante
+  green = "0x00FF00"    # Verde neón intenso
+  yellow = "0xFFAA00"   # Amarillo anaranjado brillante
+  blue = "0x007BFF"     # Azul eléctrico
+  magenta = "0xFF00FF"  # Magenta neón
+  cyan = "0x00FFFF"     # Cian fosforescente
+  white = "0xD0D0D0"    # Gris claro metálico
+
+  [colors.bright]
+  black = "0x300030"    # Negro con un matiz violeta
+  red = "0xFF5733"      # Rojo anaranjado brillante
+  green = "0x00FF7F"    # Verde neón vibrante
+  yellow = "0xFFD700"   # Amarillo dorado intenso
+  blue = "0x1E90FF"     # Azul neón futurista
+  magenta = "0xFF1493"  # Rosa neón cyberpunk
+  cyan = "0x00CED1"     # Azul cian brillante
+  white = "0xFFFFFF"    # Blanco puro, alto contraste
+
+# Configuración del cursor
+[cursor]
+  style = { shape = "Block", blinking = "Always" }   # Cursor de bloque y parpadeante
+  vi_mode_style = "None"
+  blink_interval = 400
+  unfocused_hollow = true
+  thickness = 0.2
+
+[bell]
+  animation = "EaseOutExpo"
+  duration = 300
+  color = "#FF007F"  # Rosa neón intenso
+  command = "None"
+
+# Opciones de Mouse
+[mouse]
+  hide_when_typing = false

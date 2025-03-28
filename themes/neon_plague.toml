@@ -1,0 +1,58 @@
+# Neon Plague
+
+# Fuente
+font.normal.family = "Fira Code"
+font.normal.style = "Regular"
+font.bold.family = "Fira Code"
+font.bold.style = "Bold"
+font.italic.family = "Fira Code"
+font.italic.style = "Italic"
+font.size = 13.0
+font.offset.x = -1
+font.offset.y = -1
+
+# Colores del tema
+[colors]
+  draw_bold_text_with_bright_colors = true
+  [colors.primary]
+  background = "0x080020"  # Azul noche infernal
+  foreground = "0xFF007F"  # Rosa neón maldito
+
+  [colors.normal]
+  black = "0x140014"    # Negro púrpura espectral
+  red = "0xFF1053"      # Rojo carmesí eléctrico
+  green = "0x39FF14"    # Verde neón venenoso
+  yellow = "0xFFDD00"   # Dorado infernal
+  blue = "0x3399FF"     # Azul neón cósmico
+  magenta = "0xFF00D7"   # Magenta fluorescente
+  cyan = "0x00E5FF"     # Azul hielo radioactivo
+  white = "0xE0E0E0"    # Gris neón frío
+
+  [colors.bright]
+  black = "0x555555"    # Gris medio
+  red = "0xFF4F4F"      # Rojo brillante
+  green = "0x4CAF50"    # Verde brillante
+  yellow = "0xFFEB3B"   # Amarillo brillante
+  blue = "0x1E88E5"     # Azul cálido
+  magenta = "0x8A2BE2"   # Morado oscuro
+  cyan = "0x00BCD4"     # Cian brillante
+  white = "0xD0D0D0"    # Gris metálico
+
+# Configuración del cursor
+[cursor]
+  style = { shape = "Beam", blinking = "Always" }
+  vi_mode_style = "None"
+  blink_interval = 500
+  unfocused_hollow = true
+  thickness = 0.15
+
+[bell]
+  animation = "EaseOutExpo"
+  duration = 300
+  color = "#8A2BE2"
+  command = "None"
+
+# Opciones de Mouse
+[mouse]
+  hide_when_typing = false
+
