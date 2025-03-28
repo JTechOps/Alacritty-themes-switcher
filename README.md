@@ -81,31 +81,31 @@ Below are images showcasing a few of the themes. While all 16 themes are availab
 -Cyber Chaos Theme:
 A bold and intense theme inspired by futuristic cyberpunk aesthetics.
 
-![cyber_chaos](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/cyber_chaos.png){:width="300"}
+![cyber_chaos](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/cyber_chaos.png)
 
 -Doom Terminal Theme:
 A dark and moody theme with a gritty, retro feel.
 
-![doom_terminal](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/doom_terminal.png){:width="300"}
+![doom_terminal](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/doom_terminal.png)
 
 Doom Terminal editing code:
 
-![doom_terminal](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/doom_theme_editing.png){:width="300"}
+![doom_terminal](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/doom_theme_editing.png)
 
 -Hacker Underground Theme:
 A theme with neon green and dark tones, ideal for a hacker's environment.
 
-![hacker_underground](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/hacker_underground.png){:width="300"}
+![hacker_underground](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/hacker_underground.png)
 
 -Infernal Cyberpunk Theme:
 A fiery theme with cyberpunk-inspired visuals.
 
-![infernal_cyberpunk](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/infernal_cyberpunk.png){:width="300"}
+![infernal_cyberpunk](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/infernal_cyberpunk.png)
 
 -ShadowDOS Terminal Theme:
 A classic DOS-inspired theme with a sleek dark mode style.
 
-![shadowDOS_terminal](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/shadowDOS_terminal.png){:width="300"}
+![shadowDOS_terminal](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/shadowDOS_terminal.png)
 
 ## Notes
 
