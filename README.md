@@ -92,7 +92,7 @@ A dark and moody theme with a gritty, retro feel.
 
 ![doom_terminal](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/doom_terminal.png)
 
-Doom Terminal editing code:
+-Doom Terminal editing code:
 
 ![doom_terminal](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/doom_theme_editing.png)
 
