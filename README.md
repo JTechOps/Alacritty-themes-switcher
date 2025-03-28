@@ -10,15 +10,21 @@ This script allows you to easily switch between different themes for your Alacri
 
    Copy the `themes/` folder into your `$HOME/.config/alacritty/` directory:
 
+```bash
    cp -r themes/ $HOME/.config/alacritty/
+```
 
 2. **Give execute permissions to the script:**
 
+```bash
    chmod +x alacritty_theme_switcher.sh
+```
 
 3. **Run the script to select and apply a theme:**
 
+```bash
    ./alacritty_theme_switcher.sh
+```
 
    This will present a list of available themes. Select a theme, and the script will automatically apply it and restart Alacritty.
 
@@ -43,7 +49,7 @@ sudo apt install fonts-firacode
 sudo apt install xfonts-terminus
 sudo apt install fonts-3270
 sudo apt install fonts-terminus
-
+```
 
 ## Available Themes
 
