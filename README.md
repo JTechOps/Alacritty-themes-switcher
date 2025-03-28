@@ -78,11 +78,16 @@ You can preview each of these themes by selecting them from the list when runnin
 
 Below are images showcasing a few of the themes. While all 16 themes are available, here are five for visual reference:
 
+-
 - ![cyber_chaos](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/cyber_chaos.png)
-- cyber_chaos
-- dark_synthwave
-- doom_terminal
-- neon_plague
+-
+- ![doom_terminal](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/doom_terminal.png) 
+-
+- ![hacker_underground](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/hacker_underground.png)
+-
+- ![infernal_cyberpunk](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/infernal_cyberpunk.png)
+-
+- ![shadowDOS_terminal](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/shadowDOS_terminal.png)
 
 (Replace images/ with the actual path to your image folder.)
 
