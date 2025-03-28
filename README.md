@@ -103,8 +103,6 @@ A classic DOS-inspired theme with a sleek dark mode style.
 
 ![shadowDOS_terminal](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/shadowDOS_terminal.png)
 
-(Replace images/ with the actual path to your image folder.)
-
 ## Notes
 
 - The script will overwrite your current `alacritty.toml` configuration with the selected theme.
