@@ -28,6 +28,8 @@ This script allows you to easily switch between different themes for your Alacri
 
    This will present a list of available themes. Select a theme, and the script will automatically apply it and restart Alacritty.
 
+![theme_switcher](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/theme_switcher.png)
+
 
 ## Required Fonts
 
