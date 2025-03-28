@@ -106,6 +106,10 @@ A fiery theme with cyberpunk-inspired visuals.
 
 ![infernal_cyberpunk](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/infernal_cyberpunk.png)
 
+-Infernal Cyberpunk editing code:
+
+![infernal_cyberpunk](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/infernal_cyberpunk_editing.png)
+
 -ShadowDOS Terminal Theme:
 A classic DOS-inspired theme with a sleek dark mode style.
 
