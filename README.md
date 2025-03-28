@@ -10,18 +10,40 @@ This script allows you to easily switch between different themes for your Alacri
 
    Copy the `themes/` folder into your `$HOME/.config/alacritty/` directory:
 
-   ```bash
    cp -r themes/ $HOME/.config/alacritty/
 
-Give execute permissions to the script:
+2. **Give execute permissions to the script:**
 
-chmod +x alacritty_theme_switcher.sh
+   chmod +x alacritty_theme_switcher.sh
 
-Run the script to select and apply a theme:
+3. **Run the script to select and apply a theme:**
 
-./alacritty_theme_switcher.sh
+   ./alacritty_theme_switcher.sh
 
-This will present a list of available themes. Select a theme, and the script will automatically apply it and restart Alacritty.
+   This will present a list of available themes. Select a theme, and the script will automatically apply it and restart Alacritty.
+
+
+## Required Fonts
+
+To ensure that the themes look as intended, you will need to install the following fonts:
+
+- Terminus
+- IBM 3270
+- DejaVu Sans Mono
+- Fira Code
+- Noto Sans Mono CJK SC
+- JetBrains Mono
+
+You can install these fonts manually or through your package manager. For example, on Ubuntu, you can install most of these fonts using the following commands:
+
+```bash
+sudo apt install fonts-noto-cjk
+sudo apt install fonts-jetbrains-mono
+sudo apt install fonts-firacode
+sudo apt install xfonts-terminus
+sudo apt install fonts-3270
+sudo apt install fonts-terminus
+
 
 ## Available Themes
 
