@@ -83,7 +83,7 @@ A bold and intense theme inspired by futuristic cyberpunk aesthetics.
 
 ![cyber_chaos](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/cyber_chaos.png)
 
-Cyber Chaos editing code:
+-Cyber Chaos editing code:
 
 ![cyber_chaos](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/cyber_chaos_editing.png)
 
