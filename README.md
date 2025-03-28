@@ -78,7 +78,7 @@ You can preview each of these themes by selecting them from the list when runnin
 
 Below are images showcasing a few of the themes. While all 16 themes are available, here are five for visual reference:
 
-- crimson_abyss
+- ![cyber_chaos](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/cyber_chaos.png)
 - cyber_chaos
 - dark_synthwave
 - doom_terminal
