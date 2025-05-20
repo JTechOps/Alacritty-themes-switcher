@@ -28,29 +28,19 @@ This script allows you to easily switch between different themes for your Alacri
 
    This will present a list of available themes. Select a theme, and the script will automatically apply it and restart Alacritty.
 
-![theme_switcher](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/theme_switcher.png)
+![theme_switcher](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/theme_switcher1.png)
 
 
 ## Required Fonts
 
 To ensure that the themes look as intended, you will need to install the following fonts:
 
-- Terminus
-- IBM 3270
-- DejaVu Sans Mono
-- Fira Code
-- Noto Sans Mono CJK SC
-- JetBrains Mono
+- Hermit
 
 You can install these fonts manually or through your package manager. For example, on Ubuntu, you can install most of these fonts using the following commands:
 
 ```bash
-sudo apt install fonts-noto-cjk
-sudo apt install fonts-jetbrains-mono
-sudo apt install fonts-firacode
-sudo apt install xfonts-terminus
-sudo apt install fonts-3270
-sudo apt install fonts-terminus
+sudo apt install fonts-hermit
 ```
 
 ## Available Themes
@@ -94,42 +84,11 @@ A dark and moody theme with a gritty, retro feel.
 
 ![doom_terminal](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/doom_terminal.png)
 
--Doom Terminal editing code:
-
-![doom_terminal](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/doom_theme_editing.png)
-
--Hacker Underground Theme:
-A theme with neon green and dark tones, ideal for a hacker's environment.
-
-![hacker_underground](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/hacker_underground.png)
-
--Hacker Underground editing code:
-
-![hacker_underground](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/hacker_underground_editing.png)
-
--Infernal Cyberpunk Theme:
-A fiery theme with cyberpunk-inspired visuals.
-
-![infernal_cyberpunk](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/infernal_cyberpunk.png)
-
--Infernal Cyberpunk editing code:
-
-![infernal_cyberpunk](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/infernal_cyberpunk_editing.png)
-
--ShadowDOS Terminal Theme:
-A classic DOS-inspired theme with a sleek dark mode style.
-
-![shadowDOS_terminal](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/shadowDOS_terminal.png)
-
--ShadowDOS Terminal editing code:
-
-![shadowDOS_terminal](https://github.com/JTechOps/Alacritty-themes-switcher/blob/main/screenshots/shadowDOS_editing.png)
-
 ## Notes
 
-- The script will overwrite your current `alacritty.toml` configuration with the selected theme.
-- Alacritty will automatically restart after the theme is applied.
-- To add or customize themes, you can modify the `.toml` files in the `themes/` folder.
+- Alacritty auto-reloads config (no restart needed)
+- Your current alacritty.toml will be overwritten
+- Add custom themes by dropping .toml files in ~/.config/alacritty/themes/
 
 ## License
 
