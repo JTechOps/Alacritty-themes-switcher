@@ -1,0 +1,59 @@
+# ShadowDOS Terminal
+
+[window]
+padding = { x = 8, y = 6 }
+decorations = "full"  # Sin bordes, full pantalla
+opacity = 1.0
+blur = false
+title = "root@hackermode"
+
+[font]
+normal = { family = "Hermit", style = "Regular" }  # Legibilidad hacker
+bold = { family = "Hermit", style = "Bold" }
+size = 12.0  # Tamaño clásico
+offset = { x = -1, y = 0 }
+
+# Configuración del cursor
+[cursor]
+  style = { shape = "Block", blinking = "Always" }
+  vi_mode_style = "None"
+  blink_interval = 500
+  unfocused_hollow = true
+  thickness = 0.25
+
+[bell]
+  animation = "EaseOutExpo"
+  duration = 300
+  color = "#FF3300" # Rojo de advertencia
+
+# Opciones de Mouse
+[mouse]
+  hide_when_typing = false
+
+# Colores del tema
+[colors]
+  draw_bold_text_with_bright_colors = true
+  [colors.primary]
+  background = "0x000000"  # Fondo negro profundo
+  foreground = "0xFF3300"  # Rojo intenso de alerta
+
+  [colors.normal]
+  black = "0x222222"      # Gris oscuro
+  red = "0xFF3300"        # Rojo oscuro
+  green = "0x33FF33"      # Verde neón
+  yellow = "0xFFCC00"     # Amarillo peligroso
+  blue = "0x0066FF"       # Azul oscuro
+  magenta = "0x9900FF"    # Púrpura brillante
+  cyan = "0x00CCCC"       # Cian tenue
+  white = "0xBBBBBB"      # Gris claro
+
+  [colors.bright]
+  black = "0x555555"      # Gris medio
+  red = "0xFF6666"        # Rojo brillante
+  green = "0x66FF66"      # Verde brillante
+  yellow = "0xFFFF66"     # Amarillo brillante
+  blue = "0x3366CC"       # Azul brillante
+  magenta = "0xCC66FF"    # Púrpura intenso
+  cyan = "0x66FFFF"       # Cian brillante
+  white = "0xFFFFFF"      # Blanco brillante
+

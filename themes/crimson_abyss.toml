@@ -1,0 +1,60 @@
+# Crimson Abyss
+
+[window]
+padding = { x = 8, y = 6 }
+decorations = "full"  # Sin bordes, full pantalla
+opacity = 1.0
+blur = false
+title = "root@hackermode"
+
+[font]
+normal = { family = "Hermit", style = "Regular" }  # Legibilidad hacker
+bold = { family = "Hermit", style = "Bold" }
+size = 12.0  # Tamaño clásico
+offset = { x = -1, y = 0 }
+
+# Colores del tema
+[colors]
+  draw_bold_text_with_bright_colors = true
+  [colors.primary]
+  background = "0x170016"  # Negro con matiz rojo infernal
+  foreground = "0xFF4500"  # Naranja fuego del averno
+
+  [colors.normal]
+  black = "0x240016"    # Negro con rojo oscuro
+  red = "0xD70000"      # Rojo sangre demoníaca
+  green = "0x008F11"    # Verde espectral
+  yellow = "0xFFC300"   # Dorado oscuro
+  blue = "0x5200E6"     # Azul ultraterrenal
+  magenta = "0xC71585"  # Púrpura malévolo
+  cyan = "0x00A8A8"     # Turquesa espectral
+  white = "0xD3D3D3"    # Gris claro
+
+  [colors.bright]
+  black = "0x555555"    # Gris medio
+  red = "0xFF4F4F"      # Rojo brillante
+  green = "0x4CAF50"    # Verde brillante
+  yellow = "0xFFEB3B"   # Amarillo brillante
+  blue = "0x1E88E5"     # Azul cálido
+  magenta = "0x8A2BE2"   # Morado oscuro
+  cyan = "0x00BCD4"     # Cian brillante
+  white = "0xD0D0D0"    # Gris metálico
+
+# Configuración del cursor
+[cursor]
+  style = { shape = "Beam", blinking = "Always" }
+  vi_mode_style = "None"
+  blink_interval = 500
+  unfocused_hollow = true
+  thickness = 0.15
+
+[bell]
+  animation = "EaseOutExpo"
+  duration = 300
+  color = "#8A2BE2"
+  command = "None"
+
+# Opciones de Mouse
+[mouse]
+  hide_when_typing = false
+

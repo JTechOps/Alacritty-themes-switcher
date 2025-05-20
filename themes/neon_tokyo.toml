@@ -1,0 +1,59 @@
+# Neon Tokyo
+
+[window]
+padding = { x = 8, y = 6 }
+decorations = "full"  # Sin bordes, full pantalla
+opacity = 1.0
+blur = false
+title = "root@hackermode"
+
+[font]
+normal = { family = "Hermit", style = "Regular" }  # Legibilidad hacker
+bold = { family = "Hermit", style = "Bold" }
+size = 12.0  # Tamaño clásico
+offset = { x = -1, y = 0 }
+
+# Configuración del cursor
+[cursor]
+  style = { shape = "Beam", blinking = "Always" }
+  vi_mode_style = "None"
+  blink_interval = 500
+  unfocused_hollow = true
+  thickness = 0.15
+
+[bell]
+  animation = "EaseOutExpo"
+  duration = 300
+  color = "#8A2BE2"
+  command = "None"
+
+# Opciones de Mouse
+[mouse]
+  hide_when_typing = false
+
+# Colores del tema
+[colors]
+  draw_bold_text_with_bright_colors = true
+  [colors.primary]
+  background = "0x0C0014"  # Negro con un toque de púrpura
+  foreground = "0xFF0033"  # Rojo carmesí neón
+
+  [colors.normal]
+  black = "0x1A001A"    # Negro púrpura
+  red = "0xFF0040"      # Rojo intenso
+  green = "0x00FF66"    # Verde brillante
+  yellow = "0xFFD700"   # Dorado neón
+  blue = "0x0044FF"     # Azul eléctrico
+  magenta = "0xFF00FF"  # Magenta vibrante
+  cyan = "0x00FFFF"     # Cian puro
+  white = "0xF0F0F0"    # Blanco neón
+
+  [colors.bright]
+  black = "0x333333"    # Gris oscuro
+  red = "0xFF5577"      # Rojo neón suave
+  green = "0x77FF77"    # Verde más suave
+  yellow = "0xFFFF77"   # Amarillo neón
+  blue = "0x6688FF"     # Azul llamativo
+  magenta = "0xDD66FF"  # Morado neón
+  cyan = "0x66FFFF"     # Cian brillante
+  white = "0xFFFFFF"    # Blanco ultra brillante

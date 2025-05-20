@@ -1,0 +1,61 @@
+# Cyber Chaos
+
+[window]
+padding = { x = 8, y = 6 }
+decorations = "full"  # Sin bordes, full pantalla
+opacity = 1.0
+blur = false
+title = "root@hackermode"
+
+[font]
+normal = { family = "Hermit", style = "Regular" }  # Legibilidad hacker
+bold = { family = "Hermit", style = "Bold" }
+size = 12.0  # Tamaño clásico
+offset = { x = -1, y = 0 }
+
+# Colores del tema
+[colors]
+  draw_bold_text_with_bright_colors = true
+  [colors.primary]
+  background = "0x0D0D0D"  # Negro profundo con toques grises, evocando la oscuridad digital
+  foreground = "0xF1C40F"  # Amarillo neón eléctrico, como una alerta de peligro
+
+  [colors.normal]
+  black = "0x1C1C1C"    # Gris oscuro, como un sistema corrompido
+  red = "0xE74C3C"      # Rojo intenso, simbolizando el caos y la destrucción
+  green = "0x2ECC71"    # Verde brillante, como el colapso de datos corruptos
+  yellow = "0xF39C12"   # Amarillo como una advertencia urgente
+  blue = "0x2980B9"     # Azul frío, como las profundidades del ciberespacio
+  magenta = "0x9B59B6"   # Magenta como el glitch digital, distorsionando la realidad
+  cyan = "0x16A085"     # Verde-azulado, recordando fallos en la programación
+  white = "0xECF0F1"    # Blanco sucio, para ofrecer contraste en la oscuridad
+
+  [colors.bright]
+  black = "0x555555"    # Gris medio, un fondo de recarga del sistema
+  red = "0xFF5733"      # Rojo brillante, alerta crítica
+  green = "0x4CAF50"    # Verde brillante, como el código fuera de control
+  yellow = "0xFFEB3B"   # Amarillo brillante, una emergencia en el sistema
+  blue = "0x1E88E5"     # Azul cálido, pero ya distorsionado por la corrupción
+  magenta = "0x8A2BE2"   # Morado oscuro, como el error irreversible
+  cyan = "0x00BCD4"     # Cian brillante, dando sensación de descontrol
+  white = "0xD0D0D0"    # Gris metálico, casi el fin de la terminal
+
+
+# Configuración del cursor
+[cursor]
+  style = { shape = "Block", blinking = "Always" }
+  vi_mode_style = "None"
+  blink_interval = 500
+  unfocused_hollow = false
+  thickness = 0.15
+
+[bell]
+  animation = "EaseOutExpo"
+  duration = 300
+  color = "#FF5733"  # Rojo ardiente para hacer que la alerta se sienta como una explosión
+  command = "None"
+
+# Opciones de Mouse
+[mouse]
+  hide_when_typing = false
+

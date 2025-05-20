@@ -1,0 +1,59 @@
+# DOOM Terminal
+
+[window]
+padding = { x = 8, y = 6 }
+decorations = "full"  # Sin bordes, full pantalla
+opacity = 1.0
+blur = false
+title = "root@hackermode"
+
+[font]
+normal = { family = "Hermit", style = "Regular" }  # Legibilidad hacker
+bold = { family = "Hermit", style = "Bold" }
+size = 12.0  # Tamaño clásico
+offset = { x = -1, y = 0 }
+
+# Configuración del cursor
+[cursor]
+  style = { shape = "Block", blinking = "Never" }
+  vi_mode_style = "None"
+  blink_interval = 500
+  unfocused_hollow = true
+  thickness = 0.25
+
+[bell]
+  animation = "EaseOutExpo"
+  duration = 300
+  color = "#8A2BE2"
+  command = "None"
+
+# Opciones de Mouse
+[mouse]
+  hide_when_typing = false
+
+# Colores del tema
+[colors]
+  draw_bold_text_with_bright_colors = true
+  [colors.primary]
+  background = "0x1A0A0A"  # Negro industrial con rojo oscuro
+  foreground = "0xFF0000"  # Rojo sangre
+
+  [colors.normal]
+  black = "0x220000"    # Negro con rojo
+  red = "0xCC0000"      # Rojo intenso
+  green = "0x117700"    # Verde militar
+  yellow = "0xAA7700"   # Amarillo oxidado
+  blue = "0x6699FF"     # Rojo sangre
+  magenta = "0x770022"  # Púrpura sangre
+  cyan = "0x007777"     # Cian desgastado
+  white = "0xAAAAAA"    # Gris metalizado
+
+  [colors.bright]
+  black = "0x555555"    # Gris oscuro
+  red = "0xFFFFFF"      # Rojo brillante
+  green = "0x55AA55"    # Verde tóxico
+  yellow = "0xFFD700"   # Amarillo oro viejo
+  blue = "0x3366CC"     # Azul medianoche
+  magenta = "0xAA55AA"  # Púrpura intenso
+  cyan = "0x55FFFF"     # Cian tóxico
+  white = "0xFFFFFF"    # Blanco metálico
